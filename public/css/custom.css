@@ -1,0 +1,88 @@
+/* Custom CSS */
+
+.add-button {
+    padding: 10px;
+    color: #3490dc;
+    font-weight: 500;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: 0.3s all;
+}
+.add-button:hover {
+    color: white;
+    background: #3490dc;
+}
+
+.search-field {
+    width: 100%;
+    padding: 8px 10px 8px 16px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.list-group-item-custom {
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 7px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 30%;
+    color: #cacaca;
+}
+
+.card-header-custom {
+    display: flex;
+    justify-content: center;
+    font-size: 1.125rem;
+}
+
+.mark-as-complete {
+    display: flex;
+    padding: 8px;
+    color: #38c172;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    background: white;
+    border: none;
+}
+
+.project-description {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 16px;
+}
+
+.add-task-form {
+    border-radius: 25px;
+    border: none;
+    padding: 12px;
+    width: 100%;
+}
+
+.add-task-btn {
+    display: flex;
+    padding: 16px;
+    color: #3490dc;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    transition: 0.3s all;
+}
+.add-task-btn:hover {
+    color: white;
+    background: #3490dc;
+}
