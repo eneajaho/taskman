@@ -86,11 +86,11 @@ export default class SingleProject extends Component {
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="card border-0">
-                            <div className="container card-header-custom d-flex justify-content-between align-items-center">
+                            <div className="container card-header-custom d-flex justify-content-center align-items-center">
                                 <div>{project.name}</div>
                                 <div>
                                     <button
-                                        className="btn btn-success mark-as-complete shadow"
+                                        className="btn btn-success ml-2 mark-as-complete shadow"
                                         onClick={this.handleMarkProjectAsCompleted.bind(
                                             this,
                                             project.id

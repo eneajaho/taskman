@@ -10,8 +10,8 @@ class App extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="d-flex justify-content-center align-items-center p-4">
-                    <div className="container bg-white shadow p-3">
+                <div className="d-flex justify-content-center align-items-center">
+                    <div className="container bg-white p-3">
                         <Header />
                         <Switch>
                             <Route exact path="/" component={ProjectsList} />
